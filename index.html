@@ -46,7 +46,7 @@
           "addressCountry": "US"
         },
         "areaServed": "Omaha, NE",
-        "email": "leads@omaharoofingexperts.com"
+        "email": "contact@omaharoofingexperts.com"
       }
     </script>
   </head>
@@ -60,7 +60,7 @@
         <a href="/" class="text-lg font-bold tracking-tight text-ink sm:text-xl"> Roofers Omaha NE </a>
         <a
           href="tel:+12816225095"
-          class="inline-flex shrink-0 items-center justify-center rounded-lg bg-cta px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta"
+          class="js-phone-call-label inline-flex shrink-0 items-center justify-center rounded-lg bg-cta px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta"
         >
           Call (281) 622-5095
         </a>
@@ -118,7 +118,7 @@
       <section class="bg-neutral-50 py-4" aria-label="Quick call to action">
         <div class="mx-auto flex max-w-6xl flex-col items-center justify-center gap-3 px-4 text-center sm:flex-row sm:gap-10 sm:px-6 lg:px-8">
           <p class="max-w-xl text-sm font-medium text-neutral-700">Active leak or storm damage? Don’t wait—call now for fast dispatch.</p>
-          <a href="tel:+12816225095" class="font-semibold text-cta underline-offset-2 hover:underline"> (281) 622-5095 </a>
+          <a href="tel:+12816225095" class="js-phone-inline font-semibold text-cta underline-offset-2 hover:underline">(281) 622-5095</a>
         </div>
       </section>
 
@@ -171,7 +171,7 @@
             Omaha winters and hail are hard on roofs. We move quickly to stop damage early.
           </p>
           <div class="mt-6 flex justify-center">
-            <a href="tel:+12816225095" class="text-base font-semibold text-cta hover:underline"> Call (281) 622-5095 </a>
+            <a href="tel:+12816225095" class="js-phone-call-label text-base font-semibold text-cta hover:underline">Call (281) 622-5095</a>
           </div>
         </div>
       </section>
@@ -243,7 +243,7 @@
             </a>
             <a href="#contact" class="text-lg font-semibold text-white underline-offset-2 hover:underline"> Or request a free estimate </a>
           </div>
-          <p class="mt-6 text-neutral-400">(281) 622-5095</p>
+          <p class="js-phone-display mt-6 text-neutral-400">(281) 622-5095</p>
         </div>
       </section>
 
@@ -263,7 +263,7 @@
             <div class="flex max-w-md flex-col items-center">
               <a
                 href="tel:+12816225095"
-                class="inline-flex min-h-[48px] items-center justify-center rounded-lg bg-cta px-6 py-3 text-base font-semibold text-white shadow-md hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta"
+                class="js-phone-tap-label inline-flex min-h-[48px] items-center justify-center rounded-lg bg-cta px-6 py-3 text-base font-semibold text-white shadow-md hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta"
               >
                 Tap to Call (281) 622-5095
               </a>
@@ -271,7 +271,8 @@
             </div>
             <form
               class="w-full max-w-md rounded-2xl border border-neutral-200 bg-neutral-50 p-6 text-left shadow-sm"
-              action="https://formsubmit.co/leads@omaharoofingexperts.com"
+              data-lead-form
+              action="https://formsubmit.co/robnattrass429@gmail.com"
               method="POST"
             >
               <input type="hidden" name="_subject" value="Omaha Roofing — New lead (home)" />
@@ -331,13 +332,18 @@
           Emergency and same-day roofing in <strong class="font-semibold text-ink">Omaha, Nebraska</strong>.
         </p>
         <p class="mt-2">
-          <a href="tel:+12816225095" class="font-semibold text-cta hover:underline">(281) 622-5095</a>
+          <a href="tel:+12816225095" class="js-phone-inline font-semibold text-cta hover:underline">(281) 622-5095</a>
         </p>
         <p class="mt-2">
-          <a href="mailto:leads@omaharoofingexperts.com" class="font-semibold text-cta hover:underline">leads@omaharoofingexperts.com</a>
+          <a href="mailto:contact@omaharoofingexperts.com" class="font-semibold text-cta hover:underline">contact@omaharoofingexperts.com</a>
+        </p>
+        <p class="mt-5">
+          <a href="/partner/" class="text-xs font-medium text-neutral-500 underline underline-offset-2 hover:text-ink">Leaseholder portal</a>
         </p>
         <p class="mt-4 text-sm text-neutral-500">© Roofers Omaha NE. Licensed &amp; insured. Free estimates.</p>
       </div>
     </footer>
+    <script src="/contact-config.js"></script>
+    <script src="/contact-apply.js"></script>
   </body>
 </html>
