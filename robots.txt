@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://roofersomahane.com/sitemap.xml
+Sitemap: https://www.omaharoofingexperts.com/sitemap.xml
