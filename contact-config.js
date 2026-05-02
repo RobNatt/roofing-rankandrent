@@ -7,7 +7,7 @@ window.SITE_CONTACT = {
   formSubmitEmail: "robnattrass429@gmail.com",
   contactMailbox: "contact@omaharoofingexperts.com",
   phone: {
-    href: "tel:+12816225095",
-    display: "(281) 622-5095",
+    href: "tel:+14029153482",
+    display: "(402) 915-3482",
   },
 };
