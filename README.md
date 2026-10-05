@@ -23,7 +23,7 @@ Forms also have a static `action="https://formsubmit.co/…"` URL. Copy the same
 
 After changing phone or public email, update the JSON‑LD block (search for `application/ld+json`):
 
-- `telephone` — align with **`phone`** in config (formatted like `+1-402-915-3482`)
+- `telephone` — align with **`phone`** in config (formatted like `+1-402-772-6658`)
 - `email` — usually same idea as **`contactMailbox`**
 
 ## 4. FormSubmit
