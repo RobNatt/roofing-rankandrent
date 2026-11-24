@@ -245,6 +245,21 @@ PAGES = [
         form=FORM_HOME.format(subject="Omaha Roofing — Repair or replace guide lead", next=f"{SITE}/guides/roof-repair-or-replacement/?sent=1#contact"),
         crumbs=[("Guides", "/guides/"), ("Repair or Replacement", "/guides/roof-repair-or-replacement/")],
     ),
+    # Added 24 Nov 2026 from the findquestions.com roofing list (hiring and
+    # vetting cluster). Statute text checked on nebraskalegislature.gov that day.
+    dict(
+        path="/guides/how-to-hire-a-roofer-omaha/",
+        file="guide-hire.html",
+        kind="article",
+        title="How to Hire a Roofer in Omaha Without Getting Scammed",
+        description="Hiring a roofer in Omaha: check Nebraska registration and insurance, questions to ask, what the contract must say, your rights under state law, red flags.",
+        eyebrow="Guide",
+        h1="How to Hire a Roofer in Omaha Without Getting Scammed",
+        intro="After a hailstorm, Omaha fills with roofing trucks, and most of them are honest. This guide shows how to check the one you are talking to, what to ask, what the contract should say, and the rights Nebraska law gives you when insurance is paying.",
+        hero=None,
+        form=FORM_HOME.format(subject="Omaha Roofing — Hiring guide lead", next=f"{SITE}/guides/how-to-hire-a-roofer-omaha/?sent=1#contact"),
+        crumbs=[("Guides", "/guides/"), ("How to Hire a Roofer", "/guides/how-to-hire-a-roofer-omaha/")],
+    ),
 ]
 
 NAV_SERVICES = [
@@ -255,6 +270,7 @@ NAV_SERVICES = [
 ]
 NAV_GUIDES = [
     ("All guides", "/guides/"),
+    ("How to hire a roofer", "/guides/how-to-hire-a-roofer-omaha/"),
     ("Hail damage insurance claims", "/guides/hail-damage-roof-insurance-claim-omaha/"),
     ("Roof replacement cost in Omaha", "/guides/roof-replacement-cost-omaha/"),
     ("Repair or replacement?", "/guides/roof-repair-or-replacement/"),
