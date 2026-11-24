@@ -25,7 +25,9 @@ GA_ID = "G-D5QE6Q32P3"
 
 DISCLOSURE = (
     "Omaha Roofing Experts is a referral service; work is performed by "
-    "independent licensed contractors."
+    "independent roofing contractors. Nebraska requires contractors to register "
+    "with the state Department of Labor, and you can check any contractor in its "
+    '<a href="https://dol.nebraska.gov/conreg/Search" rel="noopener">registration search</a>.'
 )
 
 AREA = ["Omaha", "Bellevue", "Papillion", "La Vista", "Ralston", "Elkhorn", "Bennington"]
