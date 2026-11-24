@@ -162,6 +162,23 @@ PAGES = [
         form=service_form("Omaha Roofing — Roof leak lead", f"{SITE}/roof-leak-repair-omaha/?sent=1#contact", "Request leak repair"),
         crumbs=[("Roof Leak Repair", "/roof-leak-repair-omaha/")],
     ),
+    # Added 24 Nov 2026: "roof repair omaha" had 407 Google views since launch
+    # and no page (Search Console). Costs are This Old House 2026 national
+    # figures, labelled as national; no source publishes Omaha-only repair prices.
+    dict(
+        path="/roof-repair-omaha/",
+        file="repair.html",
+        kind="service",
+        service_name="Roof repair",
+        title="Roof Repair Omaha: 2026 Costs | Call (402) 772-6658",
+        description="Most minor roof repairs cost $150 to $1,000. What changes the price, how to check an Omaha quote, and a local roofer. Call (402) 772-6658.",
+        eyebrow="Roof repair",
+        h1="Roof Repair in Omaha, NE: Costs and What to Expect",
+        intro="Shingles blown off, a leak around the chimney, or hail damage after a storm? Here is what roof repairs typically cost, what changes the price, how to tell whether a quote is fair, and how to get a local Omaha roofer out to your home.",
+        hero=("roofer-shingle-sample", 800, "Roofer holding a shingle sample while explaining roof damage to a homeowner"),
+        form=service_form("Omaha Roofing — Roof repair lead", f"{SITE}/roof-repair-omaha/?sent=1#contact", "Request a repair quote"),
+        crumbs=[("Roof Repair", "/roof-repair-omaha/")],
+    ),
     dict(
         path="/storm-damage-roofing-omaha/",
         file="storm.html",
@@ -231,6 +248,7 @@ PAGES = [
 ]
 
 NAV_SERVICES = [
+    ("Roof repair", "/roof-repair-omaha/"),
     ("Emergency roof repair", "/emergency-roof-repair-omaha/"),
     ("Roof leak repair", "/roof-leak-repair-omaha/"),
     ("Storm and hail damage", "/storm-damage-roofing-omaha/"),
